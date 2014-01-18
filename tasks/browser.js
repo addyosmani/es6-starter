@@ -3,6 +3,7 @@ module.exports = function(grunt) {
     this.files.forEach(function(f) {
       var output = ['(function() {'];
       output.push.apply(output, f.src.map(grunt.file.read));
+      output.push("requireModule('library').init()");
       output.push('}());');
 
       grunt.file.write(f.dest, grunt.template.process(output.join('\n')));
