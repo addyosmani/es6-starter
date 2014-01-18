@@ -1,4 +1,4 @@
-import { shout } from "./my_library/shout";
-import { ssshh } from "./my_library/ssshh";
+import { shout } from "./library/shout";
+import { ssshh } from "./library/ssshh";
 
 export { shout, ssshh };
