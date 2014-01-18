@@ -7,17 +7,7 @@ There are currently a ton of tooling options when it comes to trying to transpil
 
 WIP. Come back later.
 
-## Features
-
-* ES6 module transpiler + setup (AMD, CJS)
-* Traceur compiler + setup
-* JSHint linting
-* Concat + Uglify
-* Mocha + PhantomJS for unit testing
-* YUIDoc
-* Watch task
-
-# Toolchain workflow
+## Toolchain workflow
 
 ### Build
 
@@ -32,4 +22,13 @@ WIP. Come back later.
 * Uglify browser build
 * Copy over an index.html to run
 
+## Features
+
+* ES6 module transpiler + setup (AMD, CJS)
+* Traceur compiler + setup
+* JSHint linting
+* Concat + Uglify
+* Mocha + PhantomJS for unit testing
+* YUIDoc
+* Watch task
 
