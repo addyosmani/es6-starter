@@ -9,5 +9,12 @@ So far..
 
 * ES6 module transpiler + setup (AMD, CJS)
 * Traceur compiler + setup
-* Basic HTML boilerplate
+
+and..
+
+* JSHint linting
 * Concat + Uglify
+* Mocha + PhantomJS for unit testing
+* YUIDoc
+* Watch task
+
