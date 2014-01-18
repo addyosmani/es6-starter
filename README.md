@@ -3,6 +3,8 @@ sushi
 
 > A minimal starting point for using ES6 today.
 
+There are currently a ton of tooling options when it comes to trying to transpile ES6 today. Using just a module transpiler doesn't get you all the way and so you ideally want something that also transpiles ES6 language semantics at the same time. This project is an effort to work out a Grunt toolchain that can do this with a level of ease.
+
 WIP. Come back later.
 
 So far..
