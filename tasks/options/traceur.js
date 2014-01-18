@@ -1,7 +1,7 @@
 module.exports = {
   browser: {
   	files: {
-  		'tmp/browser.js': ['tmp/library.browser1.js']
+  		'dist/browser.js': ['tmp/library.browser1.js']
   	}
   },
   amd: {
