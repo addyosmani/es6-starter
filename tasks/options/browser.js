@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: 'tmp/browser.js',
+    src: 'dist/browser.js',
     dest: 'dist/library-<%= pkg.version %>.js'
   },
   distNoVersion: {

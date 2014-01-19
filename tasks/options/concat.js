@@ -15,7 +15,7 @@ module.exports = {
   },
 
   browser: {
-    src: ['app/loader/loader.js', 'tmp/library-<%= pkg.version %>.amd.js'],
+    src: ['app/loader/loader.js', 'tmp/library/**/*.amd.js', 'tmp/library.amd.js'],
     dest: 'tmp/library.browser1.js'
   }
 };

@@ -23,9 +23,18 @@ module.exports = function(grunt) {
                     'transpile:testsAmd', 'transpile:testsCommonjs', 'buildTests:dist']);
 
   // Build a new version of the library
-  this.registerTask('build', 'Builds a distributable version of <%= cfg.name %>',
-                    ['clean', 'transpile:amd', 'transpile:commonjs', 'concat:amd',
-                      'concat:browser', 'traceur:browser', 'traceur:amd', 'traceur:amdNoVersion', 'browser:dist', 'uglify:browser', 'copy']);
+  this.registerTask('build', 'Builds a distributable version of <%= cfg.name %>',[
+    'clean', 
+    'transpile:amd', 
+    'transpile:commonjs', 
+    'concat:amd',
+    'concat:browser', 
+    'traceur:browser', 
+    'traceur:amd', 
+    'traceur:amdNoVersion', 
+    'browser:dist', 
+    'uglify:browser', 
+    'copy']);
 
   // Custom phantomjs test task
   this.registerTask('test:phantom', "Runs tests through the command line using PhantomJS", [
